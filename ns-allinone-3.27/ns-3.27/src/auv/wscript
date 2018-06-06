@@ -1,0 +1,41 @@
+# -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    module = bld.create_ns3_module('auv', ['uan', 'mobility', 'energy'])
+    module.source = [
+                'model/typhoon-constraints.cc',
+                'model/remus-constraints.cc',
+                'model/remus-constraintsv2.cc',
+                'model/glider-constraints.cc',
+                'model/typhoon-energy-model.cc',
+                'model/remus-energy-model.cc',
+                'model/glider-energy-model.cc',
+                'model/auv-waypoint-mobility-model.cc',
+                'model/kinematic-constraints.cc',
+                'helper/auv-typhoon-helper.cc',
+                'helper/auv-remus-helper.cc',
+                'helper/auv-remus-helperv2.cc',
+                'helper/auv-glider-helper.cc',
+        ]
+    headers = bld(features='ns3header')
+    headers.module = 'auv'
+    headers.source = [
+                'model/typhoon-constraints.h',
+                'model/remus-constraints.h',
+                'model/remus-constraintsv2.h',
+                'model/glider-constraints.h',
+                'model/typhoon-energy-model.h',
+                'model/remus-energy-model.h',
+                'model/glider-energy-model.h',
+                'model/auv-waypoint-mobility-model.h',
+                'model/kinematic-constraints.h',
+                'helper/auv-typhoon-helper.h',
+                'helper/auv-remus-helper.h',
+                'helper/auv-remus-helperv2.h',
+                'helper/auv-glider-helper.h',
+        ]
+
+    if bld.env.ENABLE_EXAMPLES:
+        bld.recurse('examples')
+        
+        bld.ns3_python_bindings()
