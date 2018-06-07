@@ -7,5 +7,5 @@ git clone https://github.com/rcmuniz1994/ns3.git
 
 To install a new NS-3.27:
 
-1) To install the NS-3 dependecies run: ./depencias.sh. 
+1) To install the NS-3 dependencies run: ./depencias.sh. 
 2) To install the NS-3 run: ./ns3_28_installation.sh.
