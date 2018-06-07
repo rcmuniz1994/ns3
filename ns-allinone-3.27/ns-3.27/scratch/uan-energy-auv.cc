@@ -22,7 +22,7 @@
 #include "ns3/simulator.h"
 #include "ns3/packet.h"
 #include "ns3/node.h"
-#include "auv-glider-helper.h"
+#include "ns3/auv-glider-helper.h"
 #include "ns3/uan-helper.h"
 #include "ns3/basic-energy-source-helper.h"
 #include "ns3/acoustic-modem-energy-model.h"

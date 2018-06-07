@@ -71,7 +71,7 @@ AuvGliderHelper::Install (Ptr<Node> node) const
   wpmm->SetKinematicConstraints (gliderConstraints);
 
   node->AggregateObject (wpmm);
-/*
+
   // Glider energy source
   BasicEnergySourceHelper eh;
   eh.Set ("BasicEnergySourceInitialEnergyJ", DoubleValue (4320000.0));
@@ -86,8 +86,8 @@ AuvGliderHelper::Install (Ptr<Node> node) const
   typ->SetNode (node);
   typ->SetEnergyDepletionCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyDepletion, wpmm));
   typ->SetEnergyRechargedCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyRecharged, wpmm));
-*/
-/*
+
+
 //-------------------EDITEI AQUI - RODRIGO ------------------//
   BasicEnergySourceHelper modemH;
   modemH.Set ("BasicEnergySourceInitialEnergyJ", DoubleValue (3888000.0));
@@ -111,7 +111,7 @@ AuvGliderHelper::Install (Ptr<Node> node) const
 
 
 } // namespace ns3
-*/
+/*
 
   // Motor battery pack. 7 in-series string x 6 strings = 42 cells
   // Capacity 18.1 MJ @ 24 V
@@ -148,7 +148,7 @@ AuvGliderHelper::Install (Ptr<Node> node) const
   devSource->SetNode (node);
   esContainer->Add (devSource);
 */
-
+/*
   // Analogic/digital power battery pack. 3 in-series string x 4 strings = 12 cells
   // Capacity 18.1 MJ @ 10 V
   //
@@ -180,6 +180,7 @@ AuvGliderHelper::Install (Ptr<Node> node) const
   // get the installed energy source container
   cont = node->GetObject<EnergySourceContainer> ();
   NS_ASSERT (cont != 0);
+*/
 /*
   // glider energy model
   Ptr<GliderEnergyModel> gem = CreateObject<GliderEnergyModel> ();
@@ -187,7 +188,7 @@ AuvGliderHelper::Install (Ptr<Node> node) const
   gem->SetNode (node);
   devSource->AppendDeviceEnergyModel (gem);
 */
-
+/*
   // Glider energy source
   BasicEnergySourceHelper eh;
   eh.Set ("BasicEnergySourceInitialEnergyJ", DoubleValue (4320000.0));
@@ -210,4 +211,4 @@ AuvGliderHelper::Install (Ptr<Node> node) const
 }
 
 } // namespace ns3
-
+*/
