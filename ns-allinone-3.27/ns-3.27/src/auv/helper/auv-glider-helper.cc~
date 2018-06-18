@@ -89,6 +89,7 @@ AuvGliderHelper::Install (Ptr<Node> node) const
 
 
 //-------------------EDITEI AQUI - RODRIGO ------------------//
+/*
   BasicEnergySourceHelper modemH;
   modemH.Set ("BasicEnergySourceInitialEnergyJ", DoubleValue (3888000.0));
   modemH.Install (node);  
@@ -100,6 +101,30 @@ AuvGliderHelper::Install (Ptr<Node> node) const
   source2->AppendDeviceEnergyModel (typ2);
   source2->SetNode (node);
   typ2->SetNode (node);
+*/
+  //Ptr<EnergySourceContainer> esContainer = CreateObject<EnergySourceContainer> ();
+  Ptr<EnergySource> source2 = node->GetObject<EnergySourceContainer> ();
+  NS_ASSERT_MSG (cont == 0, "Energy source already installed!");
+
+  ObjectFactory fact;
+
+  fact.SetTypeId (LiIonEnergySource::GetTypeId ());
+  fact.Set ("LiIonEnergySourceInitialEnergyJ", DoubleValue (13608000.0));
+  fact.Set ("InitialCellVoltage", DoubleValue (3.45 * 7));
+  fact.Set ("NominalCellVoltage", DoubleValue (3.3 * 7));
+  fact.Set ("ExpCellVoltage", DoubleValue (3.55 * 7));
+  fact.Set ("RatedCapacity", DoubleValue (30.0 * 6));
+  fact.Set ("NomCapacity", DoubleValue (27.0 * 6));
+  fact.Set ("ExpCapacity", DoubleValue (15.0 * 6));
+  // 0.145 ohm per cell, 7 in series and 6 string in parallel
+  // Gstring = 1 / (0.145 * 7)
+  // Rint = 1 / (Gstring * 6)
+  fact.Set ("InternalResistance", DoubleValue (0.16917));
+  fact.Set ("TypCurrent", DoubleValue (1.0 * 6));
+  fact.Set ("ThresholdVoltage", DoubleValue (3.0 * 6));
+  Ptr<LiIonEnergySource> devSource = fact.Create ()->GetObject<LiIonEnergySource> ();
+  devSource->SetNode (node);
+  esContainer->Add (devSource);
 //-------------------EDITEI AQUI - RODRIGO ------------------//
 
   Ptr<MobilityModel> mm = node->GetObject<MobilityModel> ();
@@ -123,13 +148,14 @@ AuvGliderHelper::Install (Ptr<Node> node) const
   //     +--C-C-C-C-C-C-C--+
   //     +--C-C-C-C-C-C-C--+
   //
-
+*/
+/*
   Ptr<EnergySourceContainer> esContainer = CreateObject<EnergySourceContainer> ();
   Ptr<EnergySourceContainer> cont = node->GetObject<EnergySourceContainer> ();
   NS_ASSERT_MSG (cont == 0, "Energy source already installed!");
 
   ObjectFactory fact;
-/*
+
   fact.SetTypeId (LiIonEnergySource::GetTypeId ());
   fact.Set ("LiIonEnergySourceInitialEnergyJ", DoubleValue (13608000.0));
   fact.Set ("InitialCellVoltage", DoubleValue (3.45 * 7));

@@ -66,7 +66,7 @@ UanEnergyAuv::SendOnePacket (Ptr<Node> node)
   // increase the sent packets number
   ++m_sentPackets;
 
-  std::cout << "PACKET SEND" << std::endl;
+  //std::cout << "PACKET SEND" << std::endl;
 
   Simulator::Schedule (Seconds (10.0),
                        &UanEnergyAuv::SendOnePacket,
@@ -79,7 +79,7 @@ UanEnergyAuv::RxPacket (Ptr<NetDevice> dev, Ptr<const Packet> pkt, uint16_t mode
 {
   // increase the total bytes received
   m_bytesRx += pkt->GetSize ();
-  std::cout << "PACKET RECEIVED" << std::endl;
+  //std::cout << "PACKET RECEIVED" << std::endl;
 
   return true;
 }
@@ -88,7 +88,7 @@ UanEnergyAuv::Run ()
 {
 //------------- EDITEI AQUI - RODRIGO ---------------//
   Ptr<DeviceEnergyModel> source1 = 0;
-  Ptr<DeviceEnergyModel> source2 = 0;
+  //Ptr<DeviceEnergyModel> source2 = 0;
   Time StopTime = Seconds (20000);
 //------------- EDITEI AQUI - RODRIGO ---------------//
 
@@ -111,7 +111,7 @@ UanEnergyAuv::Run ()
 
   //------EDITEI AQUI - RODRIGO ------//
   source1 = m_auv->GetObject<EnergySourceContainer> ()->Get (0)->FindDeviceEnergyModels ("ns3::GliderEnergyModel").Get(0);
-  source2 = m_auv->GetObject<EnergySourceContainer> ()->Get (1)->FindDeviceEnergyModels ("ns3::AcousticModemEnergyModel").Get(0);
+  //source2 = m_auv->GetObject<EnergySourceContainer> ()->Get (1)->FindDeviceEnergyModels ("ns3::AcousticModemEnergyModel").Get(0);
   // move the vehicle somewhere
   Ptr<AuvWaypointMobilityModel> mob = m_auv->GetObject <AuvWaypointMobilityModel> ();
   mob->AddWaypoint (Waypoint (Seconds (0), Vector (0,0,0)));
@@ -174,9 +174,9 @@ UanEnergyAuv::Run ()
 //----------- EDITEI AQUI - RODRIGO ------------------//
 
   // COMENTEI AQUI -- PONTEIROS QUE ESTAVAM GERANDO O ERRO -- RODRIGO MUNIZ
-  DoubleValue commBatteryCapacity;
-  source2->GetAttribute ("TxPowerW", commBatteryCapacity);
-  std::cout << "AUV energy consumption (comms): " << source2->GetTotalEnergyConsumption () << " J" << std::endl;
+  //DoubleValue commBatteryCapacity;
+  //source2->GetAttribute ("TxPowerW", commBatteryCapacity);
+  //std::cout << "AUV energy consumption (comms): " << source2->GetTotalEnergyConsumption () << " J" << std::endl;
 
   return false;
 }

@@ -1,8 +1,8 @@
 [
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/des-metrics.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/model/des-metrics.cc.1.o", 
-    "file": "../src/core/model/des-metrics.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/radiotap-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/network/utils/radiotap-header.cc.1.o", 
+    "file": "../src/network/utils/radiotap-header.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -161,8 +161,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/flow-monitor/model/ipv6-flow-probe.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/flow-monitor/model/ipv6-flow-probe.cc.1.o", 
-    "file": "../src/flow-monitor/model/ipv6-flow-probe.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/ss-net-device.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/ss-net-device.cc.1.o", 
+    "file": "../src/wimax/model/ss-net-device.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -206,8 +206,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/stats/model/uinteger-32-probe.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/stats/model/uinteger-32-probe.cc.1.o", 
-    "file": "../src/stats/model/uinteger-32-probe.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-beacon-timing.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/model/dot11s/ie-dot11s-beacon-timing.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/ie-dot11s-beacon-timing.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -366,8 +366,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/aqua-sim-ng/examples/bMAC.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/examples/bMAC.cc.5.o", 
-    "file": "../src/aqua-sim-ng/examples/bMAC.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/spectrum/examples/adhoc-aloha-ideal-phy-matrix-propagation-loss-model.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/examples/adhoc-aloha-ideal-phy-matrix-propagation-loss-model.cc.2.o", 
+    "file": "../src/spectrum/examples/adhoc-aloha-ideal-phy-matrix-propagation-loss-model.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -481,8 +481,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../examples/socket/socket-bound-static-routing.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/socket/socket-bound-static-routing.cc.1.o", 
-    "file": "../examples/socket/socket-bound-static-routing.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-peering-protocol.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/model/dot11s/ie-dot11s-peering-protocol.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/ie-dot11s-peering-protocol.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -796,8 +796,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/data-rate.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/network/utils/data-rate.cc.1.o", 
-    "file": "../src/network/utils/data-rate.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/examples/lena-pathloss-traces.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/examples/lena-pathloss-traces.cc.5.o", 
+    "file": "../src/lte/examples/lena-pathloss-traces.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -811,8 +811,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-phy-cmn.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-phy-cmn.cc.1.o", 
-    "file": "../src/aqua-sim-ng/model/aqua-sim-phy-cmn.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/microwave-oven-spectrum-value-helper.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/model/microwave-oven-spectrum-value-helper.cc.1.o", 
+    "file": "../src/spectrum/model/microwave-oven-spectrum-value-helper.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -858,11 +858,6 @@
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/buildings -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/buildings/test\"' ../src/buildings/test/buildings-shadowing-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/buildings/test/buildings-shadowing-test.cc.3.o", 
     "file": "../src/buildings/test/buildings-shadowing-test.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../examples/traffic-control/traffic-control.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/traffic-control/traffic-control.cc.1.o", 
-    "file": "../examples/traffic-control/traffic-control.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -996,8 +991,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/spectrum-error-model.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/model/spectrum-error-model.cc.1.o", 
-    "file": "../src/spectrum/model/spectrum-error-model.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-address.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/uan/model/uan-address.cc.1.o", 
+    "file": "../src/uan/model/uan-address.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -1096,8 +1091,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-beacon-timing.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/model/dot11s/ie-dot11s-beacon-timing.cc.1.o", 
-    "file": "../src/mesh/model/dot11s/ie-dot11s-beacon-timing.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/stats/model/uinteger-32-probe.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/stats/model/uinteger-32-probe.cc.1.o", 
+    "file": "../src/stats/model/uinteger-32-probe.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -1111,8 +1106,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/wifi -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/wifi/test\"' ../src/wifi/test/tx-duration-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/test/tx-duration-test.cc.3.o", 
-    "file": "../src/wifi/test/tx-duration-test.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-option-ts.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/tcp-option-ts.cc.1.o", 
+    "file": "../src/internet/model/tcp-option-ts.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -1411,8 +1406,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/third.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/scratch/third.cc.10.o", 
-    "file": "../scratch/third.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/scratch-simulator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/scratch/scratch-simulator.cc.1.o", 
+    "file": "../scratch/scratch-simulator.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -1456,8 +1451,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/netanim/examples/uan-animation.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/netanim/examples/uan-animation.cc.5.o", 
-    "file": "../src/netanim/examples/uan-animation.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-pt-tag.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-pt-tag.cc.1.o", 
+    "file": "../src/aqua-sim-ng/model/aqua-sim-pt-tag.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -1561,11 +1556,6 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv6-forwarding-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv6-forwarding-test.cc.3.o", 
-    "file": "../src/internet/test/ipv6-forwarding-test.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mobility/model/waypoint-mobility-model.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mobility/model/waypoint-mobility-model.cc.1.o", 
     "file": "../src/mobility/model/waypoint-mobility-model.cc"
   }, 
@@ -1586,8 +1576,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-packet-info-tag-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv4-packet-info-tag-test-suite.cc.3.o", 
-    "file": "../src/internet/test/ipv4-packet-info-tag-test-suite.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/mesh -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/mesh/test/flame\"' ../src/mesh/test/dot11s/hwmp-proactive-regression.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/test/dot11s/hwmp-proactive-regression.cc.3.o", 
+    "file": "../src/mesh/test/dot11s/hwmp-proactive-regression.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -1731,8 +1721,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/simple-ofdm-wimax-channel.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/simple-ofdm-wimax-channel.cc.1.o", 
-    "file": "../src/wimax/model/simple-ofdm-wimax-channel.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/mesh -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/mesh/test/flame\"' ../src/mesh/test/flame/regression.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/test/flame/regression.cc.3.o", 
+    "file": "../src/mesh/test/flame/regression.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -1931,8 +1921,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-enb-rrc.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/lte-enb-rrc.cc.1.o", 
-    "file": "../src/lte/model/lte-enb-rrc.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/helper/mac-stats-calculator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/helper/mac-stats-calculator.cc.1.o", 
+    "file": "../src/lte/helper/mac-stats-calculator.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -2201,8 +2191,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/spectrum/examples/adhoc-aloha-ideal-phy-matrix-propagation-loss-model.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/examples/adhoc-aloha-ideal-phy-matrix-propagation-loss-model.cc.2.o", 
-    "file": "../src/spectrum/examples/adhoc-aloha-ideal-phy-matrix-propagation-loss-model.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/aqua-sim-ng/examples/bMAC.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/examples/bMAC.cc.5.o", 
+    "file": "../src/aqua-sim-ng/examples/bMAC.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -2246,8 +2236,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-socket-factory.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/tcp-socket-factory.cc.1.o", 
-    "file": "../src/internet/model/tcp-socket-factory.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-enb-component-carrier-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/lte-enb-component-carrier-manager.cc.1.o", 
+    "file": "../src/lte/model/lte-enb-component-carrier-manager.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -2461,8 +2451,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-vegas.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/tcp-vegas.cc.1.o", 
-    "file": "../src/internet/model/tcp-vegas.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/buildings/helper/building-allocator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/buildings/helper/building-allocator.cc.1.o", 
+    "file": "../src/buildings/helper/building-allocator.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -2711,8 +2701,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/mesh -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/mesh/test/flame\"' ../src/mesh/test/flame/regression.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/test/flame/regression.cc.3.o", 
-    "file": "../src/mesh/test/flame/regression.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/simple-ofdm-wimax-channel.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/simple-ofdm-wimax-channel.cc.1.o", 
+    "file": "../src/wimax/model/simple-ofdm-wimax-channel.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -2748,11 +2738,6 @@
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/ndn/cs-lru.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/ndn/cs-lru.cc.1.o", 
     "file": "../src/aqua-sim-ng/model/ndn/cs-lru.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/ss-net-device.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/ss-net-device.cc.1.o", 
-    "file": "../src/wimax/model/ss-net-device.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -2911,8 +2896,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/helper/spectrum-helper.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/helper/spectrum-helper.cc.1.o", 
-    "file": "../src/spectrum/helper/spectrum-helper.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/lr-wpan/helper/lr-wpan-helper.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lr-wpan/helper/lr-wpan-helper.cc.1.o", 
+    "file": "../src/lr-wpan/helper/lr-wpan-helper.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3026,8 +3011,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/ethernet-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/network/utils/ethernet-header.cc.1.o", 
-    "file": "../src/network/utils/ethernet-header.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/wimax -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/wimax/test\"' ../src/wimax/test/wimax-tlv-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/test/wimax-tlv-test.cc.3.o", 
+    "file": "../src/wimax/test/wimax-tlv-test.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3071,8 +3056,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/int64x64.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/model/int64x64.cc.1.o", 
-    "file": "../src/core/model/int64x64.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/wave -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/wave/test\"' ../src/wave/test/mac-extension-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wave/test/mac-extension-test-suite.cc.3.o", 
+    "file": "../src/wave/test/mac-extension-test-suite.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3206,8 +3191,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/stats/model/gnuplot-aggregator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/stats/model/gnuplot-aggregator.cc.1.o", 
-    "file": "../src/stats/model/gnuplot-aggregator.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/stats/model/sqlite-data-output.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/stats/model/sqlite-data-output.cc.1.o", 
+    "file": "../src/stats/model/sqlite-data-output.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3381,8 +3366,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-perr.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/model/dot11s/ie-dot11s-perr.cc.1.o", 
-    "file": "../src/mesh/model/dot11s/ie-dot11s-perr.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/helper/mesh-stack-installer.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/helper/mesh-stack-installer.cc.1.o", 
+    "file": "../src/mesh/helper/mesh-stack-installer.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3626,8 +3611,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/radiotap-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/network/utils/radiotap-header.cc.1.o", 
-    "file": "../src/network/utils/radiotap-header.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/des-metrics.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/model/des-metrics.cc.1.o", 
+    "file": "../src/core/model/des-metrics.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3736,8 +3721,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/lte -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-earfcn.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/test/lte-test-earfcn.cc.3.o", 
-    "file": "../src/lte/test/lte-test-earfcn.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/data-rate.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/network/utils/data-rate.cc.1.o", 
+    "file": "../src/network/utils/data-rate.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3751,8 +3736,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/service-flow-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/service-flow-manager.cc.1.o", 
-    "file": "../src/wimax/model/service-flow-manager.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -Isrc/sixlowpan -I../src/sixlowpan -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/sixlowpan/model/sixlowpan-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/sixlowpan/model/sixlowpan-header.cc.1.o", 
+    "file": "../src/sixlowpan/model/sixlowpan-header.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3766,8 +3751,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-address.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/uan/model/uan-address.cc.1.o", 
-    "file": "../src/uan/model/uan-address.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/spectrum-error-model.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/model/spectrum-error-model.cc.1.o", 
+    "file": "../src/spectrum/model/spectrum-error-model.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3826,13 +3811,13 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-channel.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-channel.cc.1.o", 
-    "file": "../src/aqua-sim-ng/model/aqua-sim-channel.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/stats -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/stats/test\"' ../src/stats/test/average-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/stats/test/average-test-suite.cc.3.o", 
+    "file": "../src/stats/test/average-test-suite.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/scratch-simulator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/scratch/scratch-simulator.cc.1.o", 
-    "file": "../scratch/scratch-simulator.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../examples/traffic-control/traffic-control.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/traffic-control/traffic-control.cc.1.o", 
+    "file": "../examples/traffic-control/traffic-control.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3846,8 +3831,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-pt-tag.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-pt-tag.cc.1.o", 
-    "file": "../src/aqua-sim-ng/model/aqua-sim-pt-tag.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/netanim/examples/uan-animation.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/netanim/examples/uan-animation.cc.5.o", 
+    "file": "../src/netanim/examples/uan-animation.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3946,13 +3931,13 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/wave -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/wave/test\"' ../src/wave/test/mac-extension-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wave/test/mac-extension-test-suite.cc.3.o", 
-    "file": "../src/wave/test/mac-extension-test-suite.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/int64x64.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/model/int64x64.cc.1.o", 
+    "file": "../src/core/model/int64x64.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-enb-component-carrier-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/lte-enb-component-carrier-manager.cc.1.o", 
-    "file": "../src/lte/model/lte-enb-component-carrier-manager.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-socket-factory.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/tcp-socket-factory.cc.1.o", 
+    "file": "../src/internet/model/tcp-socket-factory.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -3981,11 +3966,6 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/ff-mac-common.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/ff-mac-common.cc.1.o", 
-    "file": "../src/lte/model/ff-mac-common.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-routing-buffer.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-routing-buffer.cc.1.o", 
     "file": "../src/aqua-sim-ng/model/aqua-sim-routing-buffer.cc"
   }, 
@@ -3996,8 +3976,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/buildings/helper/building-allocator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/buildings/helper/building-allocator.cc.1.o", 
-    "file": "../src/buildings/helper/building-allocator.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-vegas.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/tcp-vegas.cc.1.o", 
+    "file": "../src/internet/model/tcp-vegas.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4046,8 +4026,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/lr-wpan/helper/lr-wpan-helper.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lr-wpan/helper/lr-wpan-helper.cc.1.o", 
-    "file": "../src/lr-wpan/helper/lr-wpan-helper.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/helper/spectrum-helper.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/helper/spectrum-helper.cc.1.o", 
+    "file": "../src/spectrum/helper/spectrum-helper.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4066,8 +4046,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/wimax -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/wimax/test\"' ../src/wimax/test/wimax-tlv-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/test/wimax-tlv-test.cc.3.o", 
-    "file": "../src/wimax/test/wimax-tlv-test.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/utils/ethernet-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/network/utils/ethernet-header.cc.1.o", 
+    "file": "../src/network/utils/ethernet-header.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4076,8 +4056,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-phy-gen.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/uan/model/uan-phy-gen.cc.1.o", 
-    "file": "../src/uan/model/uan-phy-gen.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-end-point.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/ipv4-end-point.cc.1.o", 
+    "file": "../src/internet/model/ipv4-end-point.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4201,11 +4181,6 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/examples/lena-pathloss-traces.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/examples/lena-pathloss-traces.cc.5.o", 
-    "file": "../src/lte/examples/lena-pathloss-traces.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-routing-static.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-routing-static.cc.1.o", 
     "file": "../src/aqua-sim-ng/model/aqua-sim-routing-static.cc"
   }, 
@@ -4306,8 +4281,13 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-rann.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/model/dot11s/ie-dot11s-rann.cc.1.o", 
-    "file": "../src/mesh/model/dot11s/ie-dot11s-rann.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/third.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/scratch/third.cc.10.o", 
+    "file": "../scratch/third.cc"
+  }, 
+  {
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/uan -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/uan/test\"' ../src/uan/test/uan-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/uan/test/uan-test.cc.3.o", 
+    "file": "../src/uan/test/uan-test.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4348,6 +4328,11 @@
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv6-ripng-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv6-ripng-test.cc.3.o", 
     "file": "../src/internet/test/ipv6-ripng-test.cc"
+  }, 
+  {
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/examples/main-ptr.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/examples/main-ptr.cc.3.o", 
+    "file": "../src/core/examples/main-ptr.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4406,8 +4391,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/microwave-oven-spectrum-value-helper.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/model/microwave-oven-spectrum-value-helper.cc.1.o", 
-    "file": "../src/spectrum/model/microwave-oven-spectrum-value-helper.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-phy-cmn.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-phy-cmn.cc.1.o", 
+    "file": "../src/aqua-sim-ng/model/aqua-sim-phy-cmn.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4546,8 +4531,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-autoconfigured-prefix.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/ipv6-autoconfigured-prefix.cc.1.o", 
-    "file": "../src/internet/model/ipv6-autoconfigured-prefix.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-rlc-sap.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/lte-rlc-sap.cc.1.o", 
+    "file": "../src/lte/model/lte-rlc-sap.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4558,11 +4543,6 @@
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-extension-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/ipv6-extension-header.cc.1.o", 
     "file": "../src/internet/model/ipv6-extension-header.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../examples/wireless/power-adaptation-distance.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/wireless/power-adaptation-distance.cc.20.o", 
-    "file": "../examples/wireless/power-adaptation-distance.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4631,8 +4611,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/epc-gtpu-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/epc-gtpu-header.cc.1.o", 
-    "file": "../src/lte/model/epc-gtpu-header.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-address-generator-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv4-address-generator-test-suite.cc.3.o", 
+    "file": "../src/internet/test/ipv4-address-generator-test-suite.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4671,8 +4651,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/internet-stack-helper.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/helper/internet-stack-helper.cc.1.o", 
-    "file": "../src/internet/helper/internet-stack-helper.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-spectrum-phy.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/lte-spectrum-phy.cc.1.o", 
+    "file": "../src/lte/model/lte-spectrum-phy.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4691,13 +4671,18 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/default-simulator-impl.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/model/default-simulator-impl.cc.1.o", 
-    "file": "../src/core/model/default-simulator-impl.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/core/examples/main-random-variable.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/examples/main-random-variable.cc.4.o", 
+    "file": "../src/core/examples/main-random-variable.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/mpi/examples/simple-distributed-empty-node.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mpi/examples/simple-distributed-empty-node.cc.4.o", 
     "file": "../src/mpi/examples/simple-distributed-empty-node.cc"
+  }, 
+  {
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/aparf-wifi-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/aparf-wifi-manager.cc.1.o", 
+    "file": "../src/wifi/model/aparf-wifi-manager.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4731,8 +4716,13 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/status-code.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/status-code.cc.1.o", 
-    "file": "../src/wifi/model/status-code.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/snr-tag.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/snr-tag.cc.1.o", 
+    "file": "../src/wifi/model/snr-tag.cc"
+  }, 
+  {
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/wifi -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/wifi/test\"' ../src/wifi/test/tx-duration-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/test/tx-duration-test.cc.3.o", 
+    "file": "../src/wifi/test/tx-duration-test.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4786,8 +4776,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/stats/model/sqlite-data-output.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/stats/model/sqlite-data-output.cc.1.o", 
-    "file": "../src/stats/model/sqlite-data-output.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/stats/model/gnuplot-aggregator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/stats/model/gnuplot-aggregator.cc.1.o", 
+    "file": "../src/stats/model/gnuplot-aggregator.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4841,8 +4831,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -Isrc/dsr -I../src/dsr -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/dsr/model/dsr-maintain-buff.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/dsr/model/dsr-maintain-buff.cc.1.o", 
-    "file": "../src/dsr/model/dsr-maintain-buff.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/ndn/onoff-nd-application.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/ndn/onoff-nd-application.cc.1.o", 
+    "file": "../src/aqua-sim-ng/model/ndn/onoff-nd-application.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -4871,8 +4861,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/propagation/model/jakes-propagation-loss-model.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/propagation/model/jakes-propagation-loss-model.cc.1.o", 
-    "file": "../src/propagation/model/jakes-propagation-loss-model.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/bs-uplink-scheduler-mbqos.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/bs-uplink-scheduler-mbqos.cc.1.o", 
+    "file": "../src/wimax/model/bs-uplink-scheduler-mbqos.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5016,6 +5006,11 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/ndn/cs-fifo.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/ndn/cs-fifo.cc.1.o", 
+    "file": "../src/aqua-sim-ng/model/ndn/cs-fifo.cc"
+  }, 
+  {
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/network/model/node-list.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/network/model/node-list.cc.1.o", 
     "file": "../src/network/model/node-list.cc"
   }, 
@@ -5041,8 +5036,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/regular-wifi-mac.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/regular-wifi-mac.cc.1.o", 
-    "file": "../src/wifi/model/regular-wifi-mac.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-mobility-pattern.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-mobility-pattern.cc.1.o", 
+    "file": "../src/aqua-sim-ng/model/aqua-sim-mobility-pattern.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5441,8 +5436,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/tutorial/hello-simulator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/tutorial/hello-simulator.cc.1.o", 
-    "file": "../examples/tutorial/hello-simulator.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wave/model/vsa-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wave/model/vsa-manager.cc.1.o", 
+    "file": "../src/wave/model/vsa-manager.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5541,8 +5536,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -Isrc/sixlowpan -I../src/sixlowpan -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/sixlowpan/model/sixlowpan-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/sixlowpan/model/sixlowpan-header.cc.1.o", 
-    "file": "../src/sixlowpan/model/sixlowpan-header.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/service-flow-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/service-flow-manager.cc.1.o", 
+    "file": "../src/wimax/model/service-flow-manager.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5553,6 +5548,11 @@
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/spectrum/model/spectrum-interference.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/spectrum/model/spectrum-interference.cc.1.o", 
     "file": "../src/spectrum/model/spectrum-interference.cc"
+  }, 
+  {
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/lte -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-earfcn.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/test/lte-test-earfcn.cc.3.o", 
+    "file": "../src/lte/test/lte-test-earfcn.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5596,8 +5596,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../examples/wireless/wifi-simple-interference.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/wireless/wifi-simple-interference.cc.10.o", 
-    "file": "../examples/wireless/wifi-simple-interference.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-socket-base.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/tcp-socket-base.cc.1.o", 
+    "file": "../src/internet/model/tcp-socket-base.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5606,8 +5606,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/traffic-control/model/queue-disc.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/traffic-control/model/queue-disc.cc.1.o", 
-    "file": "../src/traffic-control/model/queue-disc.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../examples/wireless/wifi-hidden-terminal.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/wireless/wifi-hidden-terminal.cc.15.o", 
+    "file": "../examples/wireless/wifi-hidden-terminal.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5641,8 +5641,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/uan -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/uan/test\"' ../src/uan/test/uan-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/uan/test/uan-test.cc.3.o", 
-    "file": "../src/uan/test/uan-test.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-rann.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/model/dot11s/ie-dot11s-rann.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/ie-dot11s-rann.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5701,8 +5701,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-rlc-sap.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/lte-rlc-sap.cc.1.o", 
-    "file": "../src/lte/model/lte-rlc-sap.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv6-autoconfigured-prefix.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/ipv6-autoconfigured-prefix.cc.1.o", 
+    "file": "../src/internet/model/ipv6-autoconfigured-prefix.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5721,8 +5721,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/ndn/onoff-nd-application.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/ndn/onoff-nd-application.cc.1.o", 
-    "file": "../src/aqua-sim-ng/model/ndn/onoff-nd-application.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -Isrc/dsr -I../src/dsr -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/dsr/model/dsr-maintain-buff.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/dsr/model/dsr-maintain-buff.cc.1.o", 
+    "file": "../src/dsr/model/dsr-maintain-buff.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5731,8 +5731,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/bs-uplink-scheduler-mbqos.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/bs-uplink-scheduler-mbqos.cc.1.o", 
-    "file": "../src/wimax/model/bs-uplink-scheduler-mbqos.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/propagation/model/jakes-propagation-loss-model.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/propagation/model/jakes-propagation-loss-model.cc.1.o", 
+    "file": "../src/propagation/model/jakes-propagation-loss-model.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5743,6 +5743,11 @@
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/tcp-highspeed-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/tcp-highspeed-test.cc.3.o", 
     "file": "../src/internet/test/tcp-highspeed-test.cc"
+  }, 
+  {
+    "directory": "/home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/auv/helper/auv-glider-helper.cc -c -o /home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build/src/auv/helper/auv-glider-helper.cc.1.o", 
+    "file": "../src/auv/helper/auv-glider-helper.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -5796,8 +5801,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wave/model/vsa-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wave/model/vsa-manager.cc.1.o", 
-    "file": "../src/wave/model/vsa-manager.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../examples/tutorial/hello-simulator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/tutorial/hello-simulator.cc.1.o", 
+    "file": "../examples/tutorial/hello-simulator.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6001,8 +6006,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/test -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/test/traced\"' ../src/test/ns3tcp/ns3tcp-socket-writer.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/test/ns3tcp/ns3tcp-socket-writer.cc.4.o", 
-    "file": "../src/test/ns3tcp/ns3tcp-socket-writer.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-address-helper-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv4-address-helper-test-suite.cc.3.o", 
+    "file": "../src/internet/test/ipv4-address-helper-test-suite.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6011,8 +6016,13 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-address-generator-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv4-address-generator-test-suite.cc.3.o", 
-    "file": "../src/internet/test/ipv4-address-generator-test-suite.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/flow-monitor/model/ipv6-flow-probe.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/flow-monitor/model/ipv6-flow-probe.cc.1.o", 
+    "file": "../src/flow-monitor/model/ipv6-flow-probe.cc"
+  }, 
+  {
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/epc-gtpu-header.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/epc-gtpu-header.cc.1.o", 
+    "file": "../src/lte/model/epc-gtpu-header.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6121,8 +6131,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/aparf-wifi-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/aparf-wifi-manager.cc.1.o", 
-    "file": "../src/wifi/model/aparf-wifi-manager.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/lte -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-rlc-um-e2e.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/test/lte-test-rlc-um-e2e.cc.3.o", 
+    "file": "../src/lte/test/lte-test-rlc-um-e2e.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6191,8 +6201,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-peering-protocol.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/model/dot11s/ie-dot11s-peering-protocol.cc.1.o", 
-    "file": "../src/mesh/model/dot11s/ie-dot11s-peering-protocol.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../examples/socket/socket-bound-static-routing.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/socket/socket-bound-static-routing.cc.1.o", 
+    "file": "../examples/socket/socket-bound-static-routing.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6226,8 +6236,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-spectrum-phy.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/lte-spectrum-phy.cc.1.o", 
-    "file": "../src/lte/model/lte-spectrum-phy.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/helper/internet-stack-helper.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/helper/internet-stack-helper.cc.1.o", 
+    "file": "../src/internet/helper/internet-stack-helper.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6276,8 +6286,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/wifi-phy.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/wifi-phy.cc.1.o", 
-    "file": "../src/wifi/model/wifi-phy.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/object.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/model/object.cc.1.o", 
+    "file": "../src/core/model/object.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6318,11 +6328,6 @@
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/mac-low.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/mac-low.cc.1.o", 
     "file": "../src/wifi/model/mac-low.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/cs-parameters.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/cs-parameters.cc.1.o", 
-    "file": "../src/wimax/model/cs-parameters.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6396,13 +6401,13 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-option-ts.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/tcp-option-ts.cc.1.o", 
-    "file": "../src/internet/model/tcp-option-ts.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv6-forwarding-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv6-forwarding-test.cc.3.o", 
+    "file": "../src/internet/test/ipv6-forwarding-test.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/mesh -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/mesh/test/flame\"' ../src/mesh/test/dot11s/hwmp-proactive-regression.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/test/dot11s/hwmp-proactive-regression.cc.3.o", 
-    "file": "../src/mesh/test/dot11s/hwmp-proactive-regression.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-packet-info-tag-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv4-packet-info-tag-test-suite.cc.3.o", 
+    "file": "../src/internet/test/ipv4-packet-info-tag-test-suite.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6416,8 +6421,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/buildings -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/buildings/test\"' ../src/buildings/test/building-position-allocator-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/buildings/test/building-position-allocator-test.cc.3.o", 
-    "file": "../src/buildings/test/building-position-allocator-test.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/examples/sample-random-variable-stream.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/examples/sample-random-variable-stream.cc.7.o", 
+    "file": "../src/core/examples/sample-random-variable-stream.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6446,8 +6451,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/helper/mac-stats-calculator.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/helper/mac-stats-calculator.cc.1.o", 
-    "file": "../src/lte/helper/mac-stats-calculator.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/lte-enb-rrc.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/lte-enb-rrc.cc.1.o", 
+    "file": "../src/lte/model/lte-enb-rrc.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6476,8 +6481,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/ndn/cs-fifo.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/ndn/cs-fifo.cc.1.o", 
-    "file": "../src/aqua-sim-ng/model/ndn/cs-fifo.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../examples/wireless/power-adaptation-distance.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/wireless/power-adaptation-distance.cc.20.o", 
+    "file": "../examples/wireless/power-adaptation-distance.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6546,8 +6551,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/snr-tag.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/snr-tag.cc.1.o", 
-    "file": "../src/wifi/model/snr-tag.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/status-code.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/status-code.cc.1.o", 
+    "file": "../src/wifi/model/status-code.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6736,8 +6741,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/helper/mesh-stack-installer.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/helper/mesh-stack-installer.cc.1.o", 
-    "file": "../src/mesh/helper/mesh-stack-installer.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/mesh/model/dot11s/ie-dot11s-perr.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/mesh/model/dot11s/ie-dot11s-perr.cc.1.o", 
+    "file": "../src/mesh/model/dot11s/ie-dot11s-perr.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6806,13 +6811,13 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/stats -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/stats/test\"' ../src/stats/test/average-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/stats/test/average-test-suite.cc.3.o", 
-    "file": "../src/stats/test/average-test-suite.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-channel.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-channel.cc.1.o", 
+    "file": "../src/aqua-sim-ng/model/aqua-sim-channel.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/examples/main-ptr.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/examples/main-ptr.cc.3.o", 
-    "file": "../src/core/examples/main-ptr.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/model/ff-mac-common.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/model/ff-mac-common.cc.1.o", 
+    "file": "../src/lte/model/ff-mac-common.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6841,8 +6846,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/ipv4-end-point.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/ipv4-end-point.cc.1.o", 
-    "file": "../src/internet/model/ipv4-end-point.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/uan/model/uan-phy-gen.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/uan/model/uan-phy-gen.cc.1.o", 
+    "file": "../src/uan/model/uan-phy-gen.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6911,8 +6916,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/core/examples/main-random-variable.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/examples/main-random-variable.cc.4.o", 
-    "file": "../src/core/examples/main-random-variable.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/default-simulator-impl.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/model/default-simulator-impl.cc.1.o", 
+    "file": "../src/core/model/default-simulator-impl.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -6981,8 +6986,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/aqua-sim-ng/model/aqua-sim-mobility-pattern.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/aqua-sim-ng/model/aqua-sim-mobility-pattern.cc.1.o", 
-    "file": "../src/aqua-sim-ng/model/aqua-sim-mobility-pattern.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/regular-wifi-mac.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/regular-wifi-mac.cc.1.o", 
+    "file": "../src/wifi/model/regular-wifi-mac.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -7046,13 +7051,13 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/internet/model/tcp-socket-base.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/model/tcp-socket-base.cc.1.o", 
-    "file": "../src/internet/model/tcp-socket-base.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../examples/wireless/wifi-simple-interference.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/wireless/wifi-simple-interference.cc.10.o", 
+    "file": "../examples/wireless/wifi-simple-interference.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../examples/wireless/wifi-hidden-terminal.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/examples/wireless/wifi-hidden-terminal.cc.15.o", 
-    "file": "../examples/wireless/wifi-hidden-terminal.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/traffic-control/model/queue-disc.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/traffic-control/model/queue-disc.cc.1.o", 
+    "file": "../src/traffic-control/model/queue-disc.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -7065,9 +7070,9 @@
     "file": "../src/netanim/examples/resources-counters.cc"
   }, 
   {
-    "directory": "/home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/auv/helper/auv-glider-helper.cc -c -o /home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build/src/auv/helper/auv-glider-helper.cc.1.o", 
-    "file": "../src/auv/helper/auv-glider-helper.cc"
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wimax/model/cs-parameters.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/model/cs-parameters.cc.1.o", 
+    "file": "../src/wimax/model/cs-parameters.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -7151,8 +7156,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-address-helper-test-suite.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/internet/test/ipv4-address-helper-test-suite.cc.3.o", 
-    "file": "../src/internet/test/ipv4-address-helper-test-suite.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/test -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/test/traced\"' ../src/test/ns3tcp/ns3tcp-socket-writer.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/test/ns3tcp/ns3tcp-socket-writer.cc.4.o", 
+    "file": "../src/test/ns3tcp/ns3tcp-socket-writer.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -7186,8 +7191,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/model/object.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/model/object.cc.1.o", 
-    "file": "../src/core/model/object.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/wifi-phy.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/wifi-phy.cc.1.o", 
+    "file": "../src/wifi/model/wifi-phy.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -7216,8 +7221,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/core/examples/sample-random-variable-stream.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/core/examples/sample-random-variable-stream.cc.7.o", 
-    "file": "../src/core/examples/sample-random-variable-stream.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/buildings -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/buildings/test\"' ../src/buildings/test/building-position-allocator-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/buildings/test/building-position-allocator-test.cc.3.o", 
+    "file": "../src/buildings/test/building-position-allocator-test.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
@@ -7306,11 +7311,6 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/traffic-control/examples/pie-example.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/traffic-control/examples/pie-example.cc.7.o", 
-    "file": "../src/traffic-control/examples/pie-example.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/network -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 '-DNS_TEST_SOURCEDIR=\"src/network/test\"' ../src/network/test/buffer-test.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/network/test/buffer-test.cc.3.o", 
     "file": "../src/network/test/buffer-test.cc"
   }, 
@@ -7366,8 +7366,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/lte -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-rlc-um-e2e.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/test/lte-test-rlc-um-e2e.cc.3.o", 
-    "file": "../src/lte/test/lte-test-rlc-um-e2e.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/traffic-control/examples/pie-example.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/traffic-control/examples/pie-example.cc.7.o", 
+    "file": "../src/traffic-control/examples/pie-example.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
