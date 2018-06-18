@@ -681,6 +681,11 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/lte -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-rlc-um-e2e.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/test/lte-test-rlc-um-e2e.cc.3.o", 
+    "file": "../src/lte/test/lte-test-rlc-um-e2e.cc"
+  }, 
+  {
+    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/lte/examples/lena-dual-stripe.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/examples/lena-dual-stripe.cc.2.o", 
     "file": "../src/lte/examples/lena-dual-stripe.cc"
   }, 
@@ -4681,11 +4686,6 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/aparf-wifi-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/aparf-wifi-manager.cc.1.o", 
-    "file": "../src/wifi/model/aparf-wifi-manager.cc"
-  }, 
-  {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
     "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../src/wimax/examples/wimax-multicast.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wimax/examples/wimax-multicast.cc.2.o", 
     "file": "../src/wimax/examples/wimax-multicast.cc"
   }, 
@@ -6131,8 +6131,8 @@
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -I../src/lte -fPIC -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-rlc-um-e2e.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/lte/test/lte-test-rlc-um-e2e.cc.3.o", 
-    "file": "../src/lte/test/lte-test-rlc-um-e2e.cc"
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/wifi/model/aparf-wifi-manager.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/wifi/model/aparf-wifi-manager.cc.1.o", 
+    "file": "../src/wifi/model/aparf-wifi-manager.cc"
   }, 
   {
     "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 

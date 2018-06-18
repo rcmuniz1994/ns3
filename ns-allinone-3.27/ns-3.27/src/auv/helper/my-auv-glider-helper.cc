@@ -1,0 +1,240 @@
+/* -*- Mode:C++; c-file-style:"gnu"; indent-tabs-mode:nil; -*- */
+/*
+ * Copyright (c) 2017 Universita' di Firenze, Italy
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation;
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * Authors: Matteo Franchi <teofr89@hotmail.it>
+ *          Tommaso Pecorella <tommaso.pecorella@unifi.it>
+ */
+
+#include "auv-glider-helper.h"
+#include "ns3/basic-energy-source-helper.h"
+#include "ns3/glider-energy-model.h"
+#include "ns3/glider-constraints.h"
+#include "ns3/auv-waypoint-mobility-model.h"
+//-------------------EDITEI AQUI - RODRIGO ------------------//
+#include "ns3/acoustic-modem-energy-model-helper.h"
+
+#include "ns3/uinteger.h"
+#include "ns3/string.h"
+#include "ns3/names.h"
+#include "ns3/li-ion-energy-source.h"
+#include "ns3/glider-energy-model.h"
+#include "ns3/acoustic-modem-energy-model-helper.h"
+#include "ns3/uan-helper.h"
+#include "ns3/waypoint-mobility-model.h"
+#include "ns3/energy-source-container.h"
+#include "auv-glider-helper.h"
+//-------------------EDITEI AQUI - RODRIGO ------------------//
+
+namespace ns3 {
+
+
+AuvGliderHelper::AuvGliderHelper ()
+{
+}
+
+void
+AuvGliderHelper::Install (NodeContainer c) const
+{
+  for (NodeContainer::Iterator i = c.Begin (); i != c.End (); ++i)
+    {
+      Install (*i);
+    }
+}
+
+void
+AuvGliderHelper::Install (std::string nodeName) const
+{
+  Ptr<Node> node = Names::Find<Node> (nodeName);
+  Install (node);
+}
+
+void
+AuvGliderHelper::Install (Ptr<Node> node) const
+{
+
+  Ptr<AuvWaypointMobilityModel> wpmm = CreateObject<AuvWaypointMobilityModel> ();
+  Ptr<GliderConstraints> gliderConstraints = CreateObject<GliderConstraints> ();
+  wpmm->SetKinematicConstraints (gliderConstraints);
+
+  node->AggregateObject (wpmm);
+
+  // Glider energy source
+  BasicEnergySourceHelper eh;
+  eh.Set ("BasicEnergySourceInitialEnergyJ", DoubleValue (4320000.0));
+  eh.Install (node);
+
+  Ptr<GliderEnergyModel> typ = CreateObject<GliderEnergyModel> ();
+  Ptr<EnergySource> source = node->GetObject<EnergySourceContainer> ()->Get (0);
+  NS_ASSERT (source != NULL);
+  typ->SetEnergySource (source);
+  source->AppendDeviceEnergyModel (typ);
+  source->SetNode (node);
+  typ->SetNode (node);
+  typ->SetEnergyDepletionCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyDepletion, wpmm));
+  typ->SetEnergyRechargedCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyRecharged, wpmm));
+
+
+//-------------------EDITEI AQUI - RODRIGO ------------------//
+/*
+  BasicEnergySourceHelper modemH;
+  modemH.Set ("BasicEnergySourceInitialEnergyJ", DoubleValue (3888000.0));
+  modemH.Install (node);  
+
+  Ptr<AcousticModemEnergyModel> typ2 = CreateObject<AcousticModemEnergyModel> ();
+  Ptr<EnergySource> source2 = node->GetObject<EnergySourceContainer> ()->Get (1);
+  NS_ASSERT (source2 != NULL);
+  typ2->SetEnergySource (source2);
+  source2->AppendDeviceEnergyModel (typ2);
+  source2->SetNode (node);
+  typ2->SetNode (node);
+*/
+  //Ptr<EnergySourceContainer> esContainer = CreateObject<EnergySourceContainer> ();
+  Ptr<EnergySource> source2 = node->GetObject<EnergySourceContainer> ();
+  NS_ASSERT_MSG (cont == 0, "Energy source already installed!");
+
+  ObjectFactory fact;
+
+  fact.SetTypeId (LiIonEnergySource::GetTypeId ());
+  fact.Set ("LiIonEnergySourceInitialEnergyJ", DoubleValue (13608000.0));
+  fact.Set ("InitialCellVoltage", DoubleValue (3.45 * 7));
+  fact.Set ("NominalCellVoltage", DoubleValue (3.3 * 7));
+  fact.Set ("ExpCellVoltage", DoubleValue (3.55 * 7));
+  fact.Set ("RatedCapacity", DoubleValue (30.0 * 6));
+  fact.Set ("NomCapacity", DoubleValue (27.0 * 6));
+  fact.Set ("ExpCapacity", DoubleValue (15.0 * 6));
+  // 0.145 ohm per cell, 7 in series and 6 string in parallel
+  // Gstring = 1 / (0.145 * 7)
+  // Rint = 1 / (Gstring * 6)
+  fact.Set ("InternalResistance", DoubleValue (0.16917));
+  fact.Set ("TypCurrent", DoubleValue (1.0 * 6));
+  fact.Set ("ThresholdVoltage", DoubleValue (3.0 * 6));
+  Ptr<LiIonEnergySource> devSource = fact.Create ()->GetObject<LiIonEnergySource> ();
+  devSource->SetNode (node);
+  esContainer->Add (devSource);
+//-------------------EDITEI AQUI - RODRIGO ------------------//
+
+  Ptr<MobilityModel> mm = node->GetObject<MobilityModel> ();
+  NS_ASSERT_MSG (mm != NULL, "Perhaps an AUV should have a mobility model, isn't it ?");
+
+  wpmm->TraceConnectWithoutContext ("CourseChange", MakeCallback (&GliderEnergyModel::NotifyCourseChanged, typ));
+
+}
+
+
+} // namespace ns3
+/*
+
+  // Motor battery pack. 7 in-series string x 6 strings = 42 cells
+  // Capacity 18.1 MJ @ 24 V
+  //
+  //     +--C-C-C-C-C-C-C--+
+  //     +--C-C-C-C-C-C-C--+
+  //  ---+--C-C-C-C-C-C-C--+---
+  //     +--C-C-C-C-C-C-C--+
+  //     +--C-C-C-C-C-C-C--+
+  //     +--C-C-C-C-C-C-C--+
+  //
+*/
+/*
+  Ptr<EnergySourceContainer> esContainer = CreateObject<EnergySourceContainer> ();
+  Ptr<EnergySourceContainer> cont = node->GetObject<EnergySourceContainer> ();
+  NS_ASSERT_MSG (cont == 0, "Energy source already installed!");
+
+  ObjectFactory fact;
+
+  fact.SetTypeId (LiIonEnergySource::GetTypeId ());
+  fact.Set ("LiIonEnergySourceInitialEnergyJ", DoubleValue (13608000.0));
+  fact.Set ("InitialCellVoltage", DoubleValue (3.45 * 7));
+  fact.Set ("NominalCellVoltage", DoubleValue (3.3 * 7));
+  fact.Set ("ExpCellVoltage", DoubleValue (3.55 * 7));
+  fact.Set ("RatedCapacity", DoubleValue (30.0 * 6));
+  fact.Set ("NomCapacity", DoubleValue (27.0 * 6));
+  fact.Set ("ExpCapacity", DoubleValue (15.0 * 6));
+  // 0.145 ohm per cell, 7 in series and 6 string in parallel
+  // Gstring = 1 / (0.145 * 7)
+  // Rint = 1 / (Gstring * 6)
+  fact.Set ("InternalResistance", DoubleValue (0.16917));
+  fact.Set ("TypCurrent", DoubleValue (1.0 * 6));
+  fact.Set ("ThresholdVoltage", DoubleValue (3.0 * 6));
+  Ptr<LiIonEnergySource> devSource = fact.Create ()->GetObject<LiIonEnergySource> ();
+  devSource->SetNode (node);
+  esContainer->Add (devSource);
+*/
+/*
+  // Analogic/digital power battery pack. 3 in-series string x 4 strings = 12 cells
+  // Capacity 18.1 MJ @ 10 V
+  //
+  //     +--C-C-C--+
+  //     +--C-C-C--+
+  //  ---+--C-C-C--+---
+  //     +--C-C-C--+
+  //
+  fact.SetTypeId (LiIonEnergySource::GetTypeId ());
+  fact.Set ("LiIonEnergySourceInitialEnergyJ", DoubleValue (3888000.0));
+  fact.Set ("InitialCellVoltage", DoubleValue (3.45 * 3));
+  fact.Set ("NominalCellVoltage", DoubleValue (3.3 * 3));
+  fact.Set ("ExpCellVoltage", DoubleValue (3.55 * 3));
+  fact.Set ("RatedCapacity", DoubleValue (30.0 * 4));
+  fact.Set ("NomCapacity", DoubleValue (27.0 * 4));
+  fact.Set ("ExpCapacity", DoubleValue (15.0 * 4));
+  // 0.145 ohm per cell, 3 in series and 4 string in parallel
+  // Gstring = 1 / (0.145 * 3)
+  // Rint = 1 / (Gstring * 4)
+  fact.Set ("InternalResistance", DoubleValue (0.10875));
+  fact.Set ("TypCurrent", DoubleValue (1.0 * 4));
+  fact.Set ("ThresholdVoltage", DoubleValue (3.0 * 4));
+  Ptr<LiIonEnergySource> devSource1 = fact.Create ()->GetObject<LiIonEnergySource> ();
+  devSource1->SetNode (node);
+  esContainer->Add (devSource1);
+
+  node->AggregateObject (esContainer);
+
+  // get the installed energy source container
+  cont = node->GetObject<EnergySourceContainer> ();
+  NS_ASSERT (cont != 0);
+*/
+/*
+  // glider energy model
+  Ptr<GliderEnergyModel> gem = CreateObject<GliderEnergyModel> ();
+  gem->SetEnergySource (devSource);
+  gem->SetNode (node);
+  devSource->AppendDeviceEnergyModel (gem);
+*/
+/*
+  // Glider energy source
+  BasicEnergySourceHelper eh;
+  eh.Set ("BasicEnergySourceInitialEnergyJ", DoubleValue (4320000.0));
+  eh.Install (node);
+
+  Ptr<GliderEnergyModel> typ = CreateObject<GliderEnergyModel> ();
+  Ptr<EnergySource> source = node->GetObject<EnergySourceContainer> ()->Get (0);
+  NS_ASSERT (source != NULL);
+  typ->SetEnergySource (source);
+  source->AppendDeviceEnergyModel (typ);
+  source->SetNode (node);
+  typ->SetNode (node);
+  typ->SetEnergyDepletionCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyDepletion, wpmm));
+  typ->SetEnergyRechargedCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyRecharged, wpmm));
+
+  // micro modem energy model
+  AcousticModemEnergyModelHelper modemH;
+  Ptr<NetDevice> dev = node->GetDevice (0);
+  modemH.Install (dev, devSource1);
+}
+
+} // namespace ns3
+*/

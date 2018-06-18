@@ -89,7 +89,7 @@ UanEnergyAuv::Run ()
 //------------- EDITEI AQUI - RODRIGO ---------------//
   Ptr<DeviceEnergyModel> source1 = 0;
   //Ptr<DeviceEnergyModel> source2 = 0;
-  Time StopTime = Seconds (20000);
+  Time StopTime = Seconds (2000);
 //------------- EDITEI AQUI - RODRIGO ---------------//
 
   // create a generic node
@@ -115,8 +115,9 @@ UanEnergyAuv::Run ()
   // move the vehicle somewhere
   Ptr<AuvWaypointMobilityModel> mob = m_auv->GetObject <AuvWaypointMobilityModel> ();
   mob->AddWaypoint (Waypoint (Seconds (0), Vector (0,0,0)));
-  mob->AddWaypoint (Waypoint (StopTime/2, Vector (45,0,1000)));
-  mob->AddWaypoint (Waypoint (StopTime, Vector (90,0,0)));
+   mob->AddWaypoint (Waypoint (StopTime, Vector (15,0,40)));
+  //mob->AddWaypoint (Waypoint (StopTime/2, Vector (45,0,1000)));
+  //mob->AddWaypoint (Waypoint (StopTime, Vector (90,0,0)));
   //------EDITEI AQUI - RODRIGO ------//
 
   // Schedule a packet every 10 seconds

@@ -24,18 +24,6 @@
 #include "ns3/glider-energy-model.h"
 #include "ns3/glider-constraints.h"
 #include "ns3/auv-waypoint-mobility-model.h"
-//-------------------EDITEI AQUI - RODRIGO ------------------//
-#include "ns3/acoustic-modem-energy-model-helper.h"
-
-#include "ns3/uinteger.h"
-#include "ns3/string.h"
-#include "ns3/names.h"
-#include "ns3/glider-energy-model.h"
-#include "ns3/acoustic-modem-energy-model-helper.h"
-#include "ns3/uan-helper.h"
-#include "ns3/waypoint-mobility-model.h"
-#include "ns3/energy-source-container.h"
-//-------------------EDITEI AQUI - RODRIGO ------------------//
 
 namespace ns3 {
 
@@ -82,8 +70,15 @@ AuvGliderHelper::Install (Ptr<Node> node) const
   source->AppendDeviceEnergyModel (typ);
   source->SetNode (node);
   typ->SetNode (node);
-  //typ->SetEnergyDepletionCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyDepletion, wpmm));
-  //typ->SetEnergyRechargedCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyRecharged, wpmm));
+  typ->SetEnergyDepletionCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyDepletion, wpmm));
+  typ->SetEnergyRechargedCallback (MakeCallback (&AuvWaypointMobilityModel::HandleEnergyRecharged, wpmm));
+
+  Ptr<MobilityModel> mm = node->GetObject<MobilityModel> ();
+  NS_ASSERT_MSG (mm != NULL, "Perhaps an AUV should have a mobility model, isn't it ?");
+
+  wpmm->TraceConnectWithoutContext ("CourseChange", MakeCallback (&GliderEnergyModel::NotifyCourseChanged, typ));
+
 }
+
 
 } // namespace ns3
