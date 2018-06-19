@@ -2825,8 +2825,8 @@
     "file": "../src/lte/model/lte-handover-management-sap.cc"
   }, 
   {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/auv/model/glider-energy-model.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/auv/model/glider-energy-model.cc.1.o", 
+    "directory": "/home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/auv/model/glider-energy-model.cc -c -o /home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build/src/auv/model/glider-energy-model.cc.1.o", 
     "file": "../src/auv/model/glider-energy-model.cc"
   }, 
   {
@@ -3850,8 +3850,8 @@
     "file": "../src/network/utils/mac64-address.cc"
   }, 
   {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/auv-types-comparison.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/scratch/auv-types-comparison.cc.4.o", 
+    "directory": "/home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -pthread -pthread -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/gio-unix-2.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/libpng12 -I/usr/include/harfbuzz -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 -DHAVE_GTK2=1 -DHAVE_LIBXML2=1 ../scratch/auv-types-comparison.cc -c -o /home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build/scratch/auv-types-comparison.cc.6.o", 
     "file": "../scratch/auv-types-comparison.cc"
   }, 
   {
@@ -4465,8 +4465,8 @@
     "file": "../src/dsr/helper/dsr-helper.cc"
   }, 
   {
-    "directory": "/home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build", 
-    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/auv/model/glider-constraints.cc -c -o /home/gppcom/ns-3/ns-allinone-3.27/ns-3.27/build/src/auv/model/glider-constraints.cc.1.o", 
+    "directory": "/home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build", 
+    "command": "/usr/bin/g++ -Wall -g -O0 -std=c++11 -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 -DHAVE_SQLITE3=1 ../src/auv/model/glider-constraints.cc -c -o /home/ns-3/ns3/ns-allinone-3.27/ns-3.27/build/src/auv/model/glider-constraints.cc.1.o", 
     "file": "../src/auv/model/glider-constraints.cc"
   }, 
   {

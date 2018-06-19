@@ -31,6 +31,9 @@
 #include "ns3/command-line.h"
 #include <list>
 #include <iostream>
+//----------EDITEI AQUI-RODRIGO-----------------//
+#include "ns3/netanim-module.h"
+//----------EDITEI AQUI-RODRIGO-----------------//
 
 using namespace ns3;
 
@@ -47,8 +50,9 @@ TracePos (Ptr<const AuvWaypointMobilityModel> mob, Time delta)
 {
   Vector curPos = mob->GetPosition ();
 
-  std::cout << "At " << Simulator::Now ().GetSeconds () << " seconds: x= " <<
-      curPos.x << " y= " << curPos.y << " z= " << curPos.z << std::endl;
+  //std::cout << "At " << Simulator::Now ().GetSeconds () << " seconds: x= " <<
+  //    curPos.x << " y= " << curPos.y << " z= " << curPos.z << std::endl;
+  std::cout << curPos.x << " " << curPos.z << std::endl;
 
   Simulator::Schedule (delta, &TracePos, mob, delta);
 }
@@ -56,11 +60,11 @@ TracePos (Ptr<const AuvWaypointMobilityModel> mob, Time delta)
 int
 main (int argc, char **argv)
 {
-  //std::string auvType = "Typhoon";
+  std::string auvType = "Typhoon";
   //std::string auvType = "Remus";
-  std::string auvType = "SeaGlider";
+  //std::string auvType = "SeaGlider";
   Ptr<DeviceEnergyModel> energyModel = 0;
-  Time StopTime = Seconds (200);
+  Time StopTime = Seconds (500);
   Time delta = Seconds (0.1);
 
   CommandLine cmd;
@@ -93,14 +97,14 @@ main (int argc, char **argv)
     }
   else
     {
-      NS_LOG_DEBUG ("Invalid AUV type");
+     NS_LOG_DEBUG ("Invalid AUV type");
       exit (1);
     }
 
   Ptr<AuvWaypointMobilityModel> mm = node->GetObject <AuvWaypointMobilityModel> ();
 
   mm->AddWaypoint (Waypoint (Seconds (0), Vector (0, 0, 0)));
-  mm->AddWaypoint (Waypoint (StopTime, Vector (15, 0, 40))); 
+  mm->AddWaypoint (Waypoint (StopTime, Vector (50, 0, 90)));
 
   // Trace the position
   TracePos (mm, delta);
@@ -108,6 +112,9 @@ main (int argc, char **argv)
   // Run the simulation
   DoubleValue auvBatteryCapacity;
   energyModel->GetAttribute ("BatteryCapacity", auvBatteryCapacity);
+
+  std::string traceFileName = "auv-types-comparison-anim.xml";
+  AnimationInterface anim(traceFileName.c_str ());
 
   Simulator::Stop (StopTime + Seconds (1));
   Simulator::Run ();

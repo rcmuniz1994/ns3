@@ -149,7 +149,7 @@ GliderConstraints::CheckPath (const Waypoint &start, const Waypoint &stop)
 the robot is aligned with the next waypoint, therefore we don't want to have any rotation during the first run.
 /*/
   requiredYaw = std::atan2 (stop.position.y - start.position.y, stop.position.x - start.position.x);
-  std::cout << "REQUIRED YAW " << requiredYaw << std::endl;
+  //std::cout << "REQUIRED YAW " << requiredYaw << std::endl;
   int case1 = 0;
   int case2 = 0;
   int case3 = 0;
@@ -166,7 +166,7 @@ the robot is aligned with the next waypoint, therefore we don't want to have any
       else
         {
           rotationyaw.time = Seconds (std::abs ((std::abs (requiredYaw) - std::abs (m_Yaw))) / (m_maxOmegaYaw));
-          std::cout << "ROTATION YAW TIME " << rotationyaw.time << std::endl;
+          //std::cout << "ROTATION YAW TIME " << rotationyaw.time << std::endl;
           //Check rotation time for the yaw angle
           NS_ABORT_MSG_IF (stop.time < rotationyaw.time, "** STOP TIME HAS TO BE > ROTATION YAW TIME");
           ret.push_back (rotationyaw);
@@ -188,24 +188,24 @@ the robot is aligned with the next waypoint, therefore we don't want to have any
 
     {
       double module = std::sqrt ((stop.position.x - start.position.x) * (stop.position.x - start.position.x) + (stop.position.y - start.position.y) * (stop.position.y - start.position.y) + (stop.position.z - start.position.z) * (stop.position.z - start.position.z));
-      std::cout << "module " << module << std::endl;
+      //std::cout << "module " << module << std::endl;
       Waypoint down;
       down.position.x = start.position.x + 0.5 * module * cos (requiredYaw);
       down.position.y = start.position.y + 0.5 * module * sin (requiredYaw);
       down.position.z = start.position.z + 0.5 * module * tan (m_minPitch);
       down.time = (start.time + (stop.time - (start.time + intermediateStepTime)) / 2);
       ret.push_back (down);
-      std::cout << "DOWN1 " << down << std::endl;
+      //std::cout << "DOWN1 " << down << std::endl;
       const double duration = (stop.time - (start.time + intermediateStepTime)).ToDouble (ns3::Time::S);
       double module2 = 2 * std::sqrt ((down.position.x - start.position.x) * (down.position.x - start.position.x) + (down.position.y - start.position.y) * (down.position.y - start.position.y) + (down.position.z - start.position.z) * (down.position.z - start.position.z));
-      std::cout << "module2 " << module2 << std::endl;
+      //std::cout << "module2 " << module2 << std::endl;
       double required_speed = module2 / (duration);
-      std::cout << "required_speed " << required_speed << std::endl;
+      //std::cout << "required_speed " << required_speed << std::endl;
       NS_ABORT_MSG_IF (required_speed > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
       double buoyancy = GetBuoyancy (required_speed * cos (m_minPitch), required_speed * sin (m_minPitch));
-      std::cout << "required_speed*cos(m_minPitch) " << required_speed * cos (m_minPitch) << std::endl;
-      std::cout << "required_speed*sin(m_minPitch) " << required_speed * sin (m_minPitch) << std::endl;
-      std::cout << "buoyancy 1 " << buoyancy << std::endl;
+      //std::cout << "required_speed*cos(m_minPitch) " << required_speed * cos (m_minPitch) << std::endl;
+      //std::cout << "required_speed*sin(m_minPitch) " << required_speed * sin (m_minPitch) << std::endl;
+      //std::cout << "buoyancy 1 " << buoyancy << std::endl;
       NS_ABORT_MSG_IF (buoyancy > m_maxBuoyancy, "** REQUIRED BUOYANCY HAS TO BE < m_maxBuoyancy");
       case1 = 1;
       m_Yaw = requiredYaw;
@@ -225,27 +225,27 @@ the robot is aligned with the next waypoint, therefore we don't want to have any
           down2.time = (start.time + (stop.time - (start.time + intermediateStepTime)) / 2);
           ret.push_back (down2);
           Waypoint down3 = down2;
-          std::cout << "DOWN2 " << down2 << std::endl;
+          //std::cout << "DOWN2 " << down2 << std::endl;
           down3.time = down2.time + Seconds (3.14 / m_maxOmegaYaw);
           ret.push_back (down3);
-          std::cout << "DOWN3 " << down3 << std::endl;
+          //std::cout << "DOWN3 " << down3 << std::endl;
           const double duration = (down2.time - (start.time + intermediateStepTime)).ToDouble (ns3::Time::S);
           double module2 = std::sqrt ((down2.position.x - start.position.x) * (down2.position.x - start.position.x) + (down2.position.y - start.position.y) * (down2.position.y - start.position.y) + (down2.position.z - start.position.z) * (down2.position.z - start.position.z));
-          std::cout << "module2 " << module2 << std::endl;
+          //std::cout << "module2 " << module2 << std::endl;
           double required_speed = module2 / (duration);
-          std::cout << "required_speed " << required_speed << std::endl;
-          std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
-          std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
+          //std::cout << "required_speed " << required_speed << std::endl;
+          //std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
+          //std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
           NS_ABORT_MSG_IF (required_speed > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
           double buoyancy = GetBuoyancy (required_speed * cos (m_maxPitch), required_speed * sin (m_maxPitch));
           const double duration2 = (stop.time - (down3.time)).ToDouble (ns3::Time::S);
           NS_ABORT_MSG_IF (duration2 < 0, "** STOP TIME HAS TO BE > REQUIRED TIME");
-          std::cout << "module2 " << module2 << std::endl;
+          //std::cout << "module2 " << module2 << std::endl;
           required_speed = module2 / (duration2);
           NS_ABORT_MSG_IF (required_speed > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
-          std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
-          std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
-          std::cout << "buoyancy 2 " << buoyancy << std::endl;
+          //std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
+          //std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
+          //std::cout << "buoyancy 2 " << buoyancy << std::endl;
           NS_ABORT_MSG_IF (buoyancy > m_maxBuoyancy, "** REQUIRED BUOYANCY HAS TO BE < m_maxBuoyancy");
           m_Yaw = requiredYaw + 3.14;
         }
@@ -258,27 +258,27 @@ the robot is aligned with the next waypoint, therefore we don't want to have any
           down2.time = (start.time + (stop.time - (start.time + intermediateStepTime)) / 2);
           ret.push_back (down2);
           Waypoint down3 = down2;
-          std::cout << "DOWN2 " << down2 << std::endl;
+          //std::cout << "DOWN2 " << down2 << std::endl;
           down3.time = down2.time + Seconds (3.14 / m_maxOmegaYaw);
           ret.push_back (down3);
-          std::cout << "DOWN3 " << down3 << std::endl;
+          //std::cout << "DOWN3 " << down3 << std::endl;
           const double duration = (down2.time - (start.time + intermediateStepTime)).ToDouble (ns3::Time::S);
           double module2 = std::sqrt ((down2.position.x - start.position.x) * (down2.position.x - start.position.x) + (down2.position.y - start.position.y) * (down2.position.y - start.position.y) + (down2.position.z - start.position.z) * (down2.position.z - start.position.z));
-          std::cout << "module2 " << module2 << std::endl;
+          //std::cout << "module2 " << module2 << std::endl;
           double required_speed = module2 / (duration);
-          std::cout << "required_speed " << required_speed << std::endl;
-          std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
-          std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
+          //std::cout << "required_speed " << required_speed << std::endl;
+          //std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
+          //std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
           NS_ABORT_MSG_IF (required_speed > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
           double buoyancy = GetBuoyancy (required_speed * cos (m_maxPitch), required_speed * sin (m_maxPitch));
           const double duration2 = (stop.time - (down3.time)).ToDouble (ns3::Time::S);
           NS_ABORT_MSG_IF (duration2 < 0, "** STOP TIME HAS TO BE > REQUIRED TIME");
-          std::cout << "module2 " << module2 << std::endl;
+          //std::cout << "module2 " << module2 << std::endl;
           required_speed = module2 / (duration2);
           NS_ABORT_MSG_IF (required_speed > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
-          std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
-          std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
-          std::cout << "buoyancy 2 " << buoyancy << std::endl;
+          //std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
+          //std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
+          //std::cout << "buoyancy 2 " << buoyancy << std::endl;
           NS_ABORT_MSG_IF (buoyancy > m_maxBuoyancy, "** REQUIRED BUOYANCY HAS TO BE < m_maxBuoyancy");
           m_Yaw = requiredYaw + 3.14;
         }
@@ -288,9 +288,9 @@ the robot is aligned with the next waypoint, therefore we don't want to have any
 //Case 3
 
   double requiredPitch = std::atan2 (stop.position.z - start.position.z, stop.position.x - start.position.x);
-  std::cout << "REQUIRED PITCH " << requiredPitch << std::endl;
-  std::cout << "case1 " << case1 << std::endl;
-  std::cout << "case2 " << case2 << std::endl;
+  //std::cout << "REQUIRED PITCH " << requiredPitch << std::endl;
+  //std::cout << "case1 " << case1 << std::endl;
+  //std::cout << "case2 " << case2 << std::endl;
 //Check if the required pitch is acceptable given MaxPitch and MinPitch. If it is, the robot goes straight toward the stop point
   if (case1 != 1 && case2 != 1)
     {
@@ -298,12 +298,12 @@ the robot is aligned with the next waypoint, therefore we don't want to have any
       if (((requiredPitch > m_minPitch) && (requiredPitch < m_maxPitch)) || ((requiredPitch < -m_minPitch) && (requiredPitch > -m_maxPitch)) || ((requiredPitch < 3.14 - m_minPitch) && (requiredPitch > 3.14 -  m_maxPitch)) || ((requiredPitch > 3.14 + m_minPitch) && (requiredPitch < 3.14 + m_maxPitch)))
         {
           double module = std::sqrt ((stop.position.x - start.position.x) * (stop.position.x - start.position.x) + (stop.position.y - start.position.y) * (stop.position.y - start.position.y) + (stop.position.z - start.position.z) * (stop.position.z - start.position.z));
-          std::cout << "QUIIIIII3bis " << std::endl;
+          //std::cout << "QUIIIIII3bis " << std::endl;
           const double duration = (stop.time - (start.time + intermediateStepTime)).ToDouble (ns3::Time::S);
           double required_speed = module / (duration);
           NS_ABORT_MSG_IF (required_speed > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
           double buoyancy = GetBuoyancy (required_speed * cos (requiredPitch), required_speed * sin (requiredPitch));
-          std::cout << "buoyancy 3 " << buoyancy << std::endl;
+          //std::cout << "buoyancy 3 " << buoyancy << std::endl;
           NS_ABORT_MSG_IF (buoyancy > m_maxBuoyancy, "** REQUIRED BUOYANCY HAS TO BE < m_maxBuoyancy");
           case3 = 1;
         }
@@ -345,22 +345,22 @@ The "down time" is supposed to be in the middle between "start time" and "stop t
               down.position.z = start.position.z + distance * sin (m_maxPitch);
               down.time = (start.time + (stop.time - (start.time + intermediateStepTime)) / 2);
               ret.push_back (down);
-              std::cout << "DOWN " << down << std::endl;
+              //std::cout << "DOWN " << down << std::endl;
               Waypoint downyaw = down;
 //Rotate the robot on the x-y plane of 180° (yaw angle)
               downyaw.time = down.time + Seconds (3.14 / m_maxOmegaYaw);
               ret.push_back (downyaw);
-              std::cout << "DOWNYAW " << downyaw << std::endl;
+              //std::cout << "DOWNYAW " << downyaw << std::endl;
 //Find the time to reach "down point"
               const double duration = (down.time - (start.time + intermediateStepTime)).ToDouble (ns3::Time::S);
 // module2 is the distance between "down point" and "start point"
               double module2 = std::sqrt ((down.position.x - start.position.x) * (down.position.x - start.position.x) + (down.position.y - start.position.y) * (down.position.y - start.position.y) + (down.position.z - start.position.z) * (down.position.z - start.position.z));
-              std::cout << "module2 " << module2 << std::endl;
+              //std::cout << "module2 " << module2 << std::endl;
 //Check the required speed
               double required_speed = module2 / (duration);
-              std::cout << "required_speed " << required_speed << std::endl;
-              std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
-              std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
+              //std::cout << "required_speed " << required_speed << std::endl;
+              //std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
+              //std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
               NS_ABORT_MSG_IF (required_speed > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
               double buoyancy = GetBuoyancy (required_speed * cos (m_maxPitch), required_speed * sin (m_maxPitch));
 //Find the time to reach "stop point"
@@ -368,11 +368,11 @@ The "down time" is supposed to be in the middle between "start time" and "stop t
               NS_ABORT_MSG_IF (duration2 < 0, "** STOP TIME HAS TO BE > REQUIRED TIME");
 // module3 here is the distance between down point and stop point
               double module3 = std::sqrt ((down.position.x - stop.position.x) * (down.position.x - stop.position.x) + (down.position.y - stop.position.y) * (down.position.y - stop.position.y) + (down.position.z - stop.position.z) * (down.position.z - stop.position.z));
-              std::cout << "module3 " << module3 << std::endl;
+              //std::cout << "module3 " << module3 << std::endl;
               double required_speed2 = module3 / (duration2);
               NS_ABORT_MSG_IF (required_speed2 > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
-              std::cout << "required_speed2 " << required_speed2 << std::endl;
-              std::cout << "buoyancy 2 " << buoyancy << std::endl;
+              //std::cout << "required_speed2 " << required_speed2 << std::endl;
+              //std::cout << "buoyancy 2 " << buoyancy << std::endl;
               NS_ABORT_MSG_IF (buoyancy > m_maxBuoyancy, "** REQUIRED BUOYANCY HAS TO BE < m_maxBuoyancy");
               m_Yaw = requiredYaw + 3.14;
             }
@@ -402,22 +402,22 @@ The "down time" is supposed to be in the middle between "start time" and "stop t
               down.position.z = start.position.z - distance * sin (m_maxPitch);
               down.time = (start.time + (stop.time - (start.time + intermediateStepTime)) / 2);
               ret.push_back (down);
-              std::cout << "DOWN " << down << std::endl;
+              //std::cout << "DOWN " << down << std::endl;
               Waypoint downyaw = down;
 //Rotate the robot on the x-y plane of 180° (yaw angle)
               downyaw.time = down.time + Seconds (3.14 / m_maxOmegaYaw);
               ret.push_back (downyaw);
-              std::cout << "DOWNYAW " << downyaw << std::endl;
+              //std::cout << "DOWNYAW " << downyaw << std::endl;
 //Find the time to reach "down point"
               const double duration = (down.time - (start.time + intermediateStepTime)).ToDouble (ns3::Time::S);
 // module2 is the distance between "down point" and "start point"
               double module2 = std::sqrt ((down.position.x - start.position.x) * (down.position.x - start.position.x) + (down.position.y - start.position.y) * (down.position.y - start.position.y) + (down.position.z - start.position.z) * (down.position.z - start.position.z));
-              std::cout << "module2 " << module2 << std::endl;
+              //std::cout << "module2 " << module2 << std::endl;
 //Check the required speed
               double required_speed = module2 / (duration);
-              std::cout << "required_speed " << required_speed << std::endl;
-              std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
-              std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
+              //std::cout << "required_speed " << required_speed << std::endl;
+              //std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
+              //std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
               NS_ABORT_MSG_IF (required_speed > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
               double buoyancy = GetBuoyancy (required_speed * cos (m_maxPitch), required_speed * sin (m_maxPitch));
 //Find the time to reach "stop point"
@@ -425,12 +425,12 @@ The "down time" is supposed to be in the middle between "start time" and "stop t
               NS_ABORT_MSG_IF (duration2 < 0, "** STOP TIME HAS TO BE > REQUIRED TIME");
 // module2 here is the distance between down point and stop point
               double module3 = std::sqrt ((down.position.x - stop.position.x) * (down.position.x - stop.position.x) + (down.position.y - stop.position.y) * (down.position.y - stop.position.y) + (down.position.z - stop.position.z) * (down.position.z - stop.position.z));
-              std::cout << "module3 " << module3 << std::endl;
+              //std::cout << "module3 " << module3 << std::endl;
               double required_speed2 = module3 / (duration2);
               NS_ABORT_MSG_IF (required_speed2 > m_maxSpeed, "** REQUIRED SPEED HAS TO BE < m_maxSpeed");
-              std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
-              std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
-              std::cout << "buoyancy 2 " << buoyancy << std::endl;
+              //std::cout << "required_speed*cos(m_maxPitch) " << required_speed * cos (m_maxPitch) << std::endl;
+              //std::cout << "required_speed*sin(m_maxPitch) " << required_speed * sin (m_maxPitch) << std::endl;
+              //std::cout << "buoyancy 2 " << buoyancy << std::endl;
               NS_ABORT_MSG_IF (buoyancy > m_maxBuoyancy, "** REQUIRED BUOYANCY HAS TO BE < m_maxBuoyancy");
               m_Yaw = requiredYaw + 3.14;
             }
