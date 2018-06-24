@@ -80,6 +80,8 @@ main (int argc, char **argv)
       AuvTyphoonHelper re;
       re.Install(node);
       energyModel = node->GetObject<EnergySourceContainer> ()->Get (0)->FindDeviceEnergyModels ("ns3::TyphoonEnergyModel").Get (0);
+      StopTime = Seconds (1200);
+      Time delta = Seconds (1);
     }
   else if (auvType.compare ("Remus") == 0)
     {
@@ -92,7 +94,7 @@ main (int argc, char **argv)
       AuvGliderHelper re;
       re.Install(node);
       energyModel = node->GetObject<EnergySourceContainer> ()->Get (0)->FindDeviceEnergyModels ("ns3::GliderEnergyModel").Get (0);
-      StopTime = Seconds (2000); // Glider is much slower than the other two.
+      StopTime = Seconds (4000); // Glider is much slower than the other two.
       delta = Seconds (1);
     }
   else
@@ -104,7 +106,8 @@ main (int argc, char **argv)
   Ptr<AuvWaypointMobilityModel> mm = node->GetObject <AuvWaypointMobilityModel> ();
 
   mm->AddWaypoint (Waypoint (Seconds (0), Vector (0, 0, 0)));
-  mm->AddWaypoint (Waypoint (StopTime, Vector (50, 0, 90)));
+  //mm->AddWaypoint (Waypoint (StopTime, Vector (50,0,1000)));
+  mm->AddWaypoint (Waypoint (StopTime, Vector (50, 0, 300)));
 
   // Trace the position
   TracePos (mm, delta);

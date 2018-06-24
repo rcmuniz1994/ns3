@@ -55,7 +55,7 @@ GliderConstraints::GetTypeId (void)
                    DoubleValue (1.045),
                    MakeDoubleAccessor (&GliderConstraints::m_maxPitch),
                    MakeDoubleChecker<double> ())
-    .AddAttribute ("MinPitch", "The maximum pitch angle of the vehicle (absolute value = 14°) , in radians.",
+    .AddAttribute ("MinPitch", "The minimum pitch angle of the vehicle (absolute value = 14°) , in radians.",
                    DoubleValue (0.24),
                    MakeDoubleAccessor (&GliderConstraints::m_minPitch),
                    MakeDoubleChecker<double> ())

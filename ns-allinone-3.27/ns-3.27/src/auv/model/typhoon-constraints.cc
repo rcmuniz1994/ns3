@@ -42,11 +42,11 @@ TyphoonConstraints::GetTypeId (void)
     .SetGroupName ("Auv")
     .AddConstructor<TyphoonConstraints> ()
     .AddAttribute ("MaxDepth", "The maximum operational depth, in m",
-                   DoubleValue (100.0),
+                   DoubleValue (300.0),
                    MakeDoubleAccessor (&TyphoonConstraints::m_maxDepth),
                    MakeDoubleChecker<double> ())
     .AddAttribute ("MaxSpeed", "The maximum (horizontal) speed of the vehicle, in m/s.",
-                   DoubleValue (1.5),
+                   DoubleValue (2.5),
                    MakeDoubleAccessor (&TyphoonConstraints::m_maxSpeed),
                    MakeDoubleChecker<double> ())
     .AddAttribute ("MaxSpeedz", "The maximum (vertical) speed of the vehicle, in m/s.",
