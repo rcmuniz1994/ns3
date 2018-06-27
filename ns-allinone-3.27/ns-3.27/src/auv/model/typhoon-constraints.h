@@ -35,8 +35,8 @@ namespace ns3 {
  *
  * The model is based on the characteristics of the TYPHOON AUV (DIEF University of Florence, MDM Lab) . The robot has 5 DOF.
  *
- * - maximum operating depth, 100 m
- * - maximum speed (on a plane) 1.5 m/s
+ * - maximum operating depth, 300 m
+ * - maximum speed (on a plane) 2.5 m/s
  * - maximum speed (ascending or descending) 0.25 m/s
  * - maximum rotational speed (along z-axis) 18°/s
  * - the robot cannot move with a pitch angle different from zero.

@@ -31,9 +31,6 @@
 #include "ns3/command-line.h"
 #include <list>
 #include <iostream>
-//----------EDITEI AQUI-RODRIGO-----------------//
-#include "ns3/netanim-module.h"
-//----------EDITEI AQUI-RODRIGO-----------------//
 
 using namespace ns3;
 
@@ -64,7 +61,7 @@ main (int argc, char **argv)
   //std::string auvType = "Remus";
   //std::string auvType = "SeaGlider";
   Ptr<DeviceEnergyModel> energyModel = 0;
-  Time StopTime = Seconds (500);
+  Time StopTime = Seconds (418);
   Time delta = Seconds (0.1);
 
   CommandLine cmd;
@@ -80,8 +77,8 @@ main (int argc, char **argv)
       AuvTyphoonHelper re;
       re.Install(node);
       energyModel = node->GetObject<EnergySourceContainer> ()->Get (0)->FindDeviceEnergyModels ("ns3::TyphoonEnergyModel").Get (0);
-      StopTime = Seconds (1200);
-      Time delta = Seconds (1);
+      //StopTime = Seconds (1200);
+      //Time delta = Seconds (1);
     }
   else if (auvType.compare ("Remus") == 0)
     {
@@ -94,7 +91,7 @@ main (int argc, char **argv)
       AuvGliderHelper re;
       re.Install(node);
       energyModel = node->GetObject<EnergySourceContainer> ()->Get (0)->FindDeviceEnergyModels ("ns3::GliderEnergyModel").Get (0);
-      StopTime = Seconds (4000); // Glider is much slower than the other two.
+      StopTime = Seconds (2000); // Glider is much slower than the other two.
       delta = Seconds (1);
     }
   else
@@ -107,7 +104,7 @@ main (int argc, char **argv)
 
   mm->AddWaypoint (Waypoint (Seconds (0), Vector (0, 0, 0)));
   //mm->AddWaypoint (Waypoint (StopTime, Vector (50,0,1000)));
-  mm->AddWaypoint (Waypoint (StopTime, Vector (50, 0, 300)));
+  mm->AddWaypoint (Waypoint (StopTime, Vector (50, 0, 100)));
 
   // Trace the position
   TracePos (mm, delta);
@@ -115,9 +112,6 @@ main (int argc, char **argv)
   // Run the simulation
   DoubleValue auvBatteryCapacity;
   energyModel->GetAttribute ("BatteryCapacity", auvBatteryCapacity);
-
-  std::string traceFileName = "auv-types-comparison-anim.xml";
-  AnimationInterface anim(traceFileName.c_str ());
 
   Simulator::Stop (StopTime + Seconds (1));
   Simulator::Run ();
